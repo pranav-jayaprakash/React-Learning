@@ -1,0 +1,32 @@
+.Blackblock {
+    background-color: #1e3932;
+    width: 100%;
+    height: 100px;
+}
+
+.childb {
+    display: flex;
+    justify-content: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.rbtn {
+    height: 50px;
+   border: 2px solid #eee;
+    padding: 10px 20px 10px 20px;
+    margin-top: 30px;
+    color: #eee;
+    position: relative;
+    border-radius: 10px;
+    margin-left: 40%;
+
+
+}
+
+.leftaligned {
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #eee;
+}

@@ -1,0 +1,37 @@
+.body-green {
+    background-color: #0e382c;
+    height: 500px;
+    padding-top: 8%;
+}
+
+.footercontainer {
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+}
+
+.item h3, p{
+    color: #eee;
+}
+
+.item p {
+    font-weight: 400;
+}
+
+.item {
+    margin-right: 50px;
+}
+
+.item3 img {
+    display: block;
+}
+
+.item img {
+    margin-right: 15px;
+    
+}
+
+.item h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}

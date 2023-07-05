@@ -1,0 +1,23 @@
+.body-bottom {
+    background-color: #eee;
+    height: 400px;
+    
+}
+
+.coffe {
+    width: 1000px;
+}
+
+.viewmenu {
+    margin-right: 100px;
+}
+
+.image-size {
+    height: 260px;
+    object-fit: cover;
+}
+
+.carddiv {
+    margin-left: 10%;
+    margin-right: 10%;
+}
