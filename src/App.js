@@ -14,6 +14,13 @@ import Cardmap from './components/Cardmap';
 import Carouselmap from './Carouselmap';
 import Tablemap from './components/Tablemap';
 import Header from './Nykaa/Header';
+import Htwo from './Nykaa/Htwo';
+import Hthree from './Nykaa/Hthree';
+import Hfour from './Nykaa/Hfour';
+import Ternary from './components/Ternary';
+import Props1 from './components/Props1';
+import Spreadoperator from './components/Spreadoperator';
+
 // import Usestate from './components/Usestate';
 
 
@@ -31,6 +38,9 @@ function App() {
       <Footer/> */}
 
       {/* <Usestate/> */}
+      {/* <Ternary/> */}
+      {/* <Props1/> */}
+      <Spreadoperator/>
 
       {/* <UsestateDecrement/> */}
       {/* <Buttoncolor/>
@@ -39,7 +49,11 @@ function App() {
       {/* <Cardmap/>
       <Carouselmap/> */}
       {/* <Tablemap/> */}
-      <Header/>
+      {/* <Header/>
+      <Htwo/>
+      <Hthree/>
+      <Hfour/> */}
+      
 
 
       

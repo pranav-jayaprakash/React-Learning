@@ -1,0 +1,17 @@
+.headtwo {
+    
+    display: flex;
+    list-style-type: none;
+    gap: 40px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 30px;
+    font-weight: 500;
+    margin-bottom: 30px;
+    
+}
+
+.headline:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}

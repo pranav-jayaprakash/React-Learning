@@ -47,7 +47,7 @@ function Header() {
           </MDBNavbarNav>
 
           <form className='d-flex input-group w-auto'>
-            <input type='search' className='form-control' placeholder='Lip sticks etc' aria-label='Search' />
+            <input type='search' className='form-control' placeholder='Search' aria-label='Search' />
             <MDBBtn color='dark'>Search</MDBBtn>
           </form>
         </MDBCollapse>
