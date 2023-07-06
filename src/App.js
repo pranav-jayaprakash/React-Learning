@@ -20,6 +20,7 @@ import Hfour from './Nykaa/Hfour';
 import Ternary from './components/Ternary';
 import Props1 from './components/Props1';
 import Spreadoperator from './components/Spreadoperator';
+import Spreadtwo from './components/Spreadtwo';
 
 // import Usestate from './components/Usestate';
 
@@ -40,7 +41,8 @@ function App() {
       {/* <Usestate/> */}
       {/* <Ternary/> */}
       {/* <Props1/> */}
-      <Spreadoperator/>
+      {/* <Spreadoperator/> */}
+      <Spreadtwo/>
 
       {/* <UsestateDecrement/> */}
       {/* <Buttoncolor/>
