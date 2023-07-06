@@ -8,7 +8,9 @@ function Spreadtwo() {
     const Array = {color:'Candy Red'}
 
     const changecolor = ()=>{
-        setfirst(Array.color)
+        
+            setfirst(Array.color)
+        
     }
 
 
