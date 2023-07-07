@@ -21,6 +21,11 @@ import Ternary from './components/Ternary';
 import Props1 from './components/Props1';
 import Spreadoperator from './components/Spreadoperator';
 import Spreadtwo from './components/Spreadtwo';
+import Hfive from './Nykaa/Hfive';
+import Hsix from './Nykaa/Hsix';
+import Hseven from './Nykaa/Hseven';
+import Height from './Nykaa/Height';
+import Hnine from './Nykaa/Hnine';
 
 // import Usestate from './components/Usestate';
 
@@ -42,7 +47,7 @@ function App() {
       {/* <Ternary/> */}
       {/* <Props1/> */}
       {/* <Spreadoperator/> */}
-      <Spreadtwo/>
+      {/* <Spreadtwo/> */}
 
       {/* <UsestateDecrement/> */}
       {/* <Buttoncolor/>
@@ -51,10 +56,17 @@ function App() {
       {/* <Cardmap/>
       <Carouselmap/> */}
       {/* <Tablemap/> */}
-      {/* <Header/>
+
+
+      <Header/>
       <Htwo/>
       <Hthree/>
-      <Hfour/> */}
+      <Hfour/>
+      <Hfive/>
+      <Hsix/>
+      <Hseven/>
+      <Height/>
+      <Hnine/>
       
 
 
