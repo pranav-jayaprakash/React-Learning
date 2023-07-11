@@ -26,6 +26,8 @@ import Hsix from './Nykaa/Hsix';
 import Hseven from './Nykaa/Hseven';
 import Height from './Nykaa/Height';
 import Hnine from './Nykaa/Hnine';
+import UseEffect1 from './components/UseEffect1';
+import AxioApi from './components/AxioApi';
 
 // import Usestate from './components/Usestate';
 
@@ -48,6 +50,8 @@ function App() {
       {/* <Props1/> */}
       {/* <Spreadoperator/> */}
       {/* <Spreadtwo/> */}
+      {/* <UseEffect1/> */}
+      <AxioApi/>
 
       {/* <UsestateDecrement/> */}
       {/* <Buttoncolor/>
@@ -58,7 +62,7 @@ function App() {
       {/* <Tablemap/> */}
 
 
-      <Header/>
+      {/* <Header/>
       <Htwo/>
       <Hthree/>
       <Hfour/>
@@ -66,7 +70,7 @@ function App() {
       <Hsix/>
       <Hseven/>
       <Height/>
-      <Hnine/>
+      <Hnine/> */}
       
 
 
