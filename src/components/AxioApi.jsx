@@ -10,6 +10,8 @@ function AxioApi() {
     useEffect(() => {
         axios.get('https://dummyjson.com/products').then((display)=>{setfirst(display.data.products)})
     }, [])
+
+    console.log(first)
     
 
 
