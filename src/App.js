@@ -30,6 +30,8 @@ import UseEffect1 from './components/UseEffect1';
 import AxioApi from './components/AxioApi';
 import AxiosCard from './components/AxiosCard';
 import ContextAccess from './components/ContextAccess';
+import Propschild from './components/Propschild';
+import Propsparent from './components/Propsparent';
 
 // import Usestate from './components/Usestate';
 
@@ -55,7 +57,8 @@ function App() {
       {/* <UseEffect1/> */}
       {/* <AxioApi/> */}
       {/* <AxiosCard/> */}
-      <ContextAccess/>
+      {/* <ContextAccess/> */}
+      <Propsparent/>
 
       {/* <UsestateDecrement/> */}
       {/* <Buttoncolor/>

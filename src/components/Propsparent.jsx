@@ -1,5 +1,6 @@
 import React from 'react'
-import {Propschild} from './Propschild'
+import Propschild from './Propschild'
+
 
 function Propsparent() {
 

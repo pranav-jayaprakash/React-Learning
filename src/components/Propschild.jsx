@@ -1,10 +1,10 @@
 import React from 'react'
 
-function Propschild(ob) {
+function Propschild({ob}) {
     
   return (
     <div>
-        
+        <h1>{ob.name}</h1>
     </div>
   )
 }
