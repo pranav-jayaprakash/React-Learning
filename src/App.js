@@ -58,9 +58,9 @@ function App() {
       {/* <UseEffect1/> */}
       {/* <AxioApi/> */}
       {/* <AxiosCard/> */}
-      {/* <ContextAccess/> */}
+      <ContextAccess/>
       {/* <Propsparent/> */}
-      <CarouselMap/>
+      {/* <CarouselMap/> */}
 
       {/* <UsestateDecrement/> */}
       {/* <Buttoncolor/>
