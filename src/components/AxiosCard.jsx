@@ -35,24 +35,16 @@ function AxiosCard() {
         
           <MDBCard className='h-100'>
           <MDBCarousel showControls showIndicators>
+          {first.map((display)=>
             <MDBCarouselItem
                 className='w-100 d-block'
                 itemId={1}
-                src={display.images[0]}
+                src={display.images}
                 alt='...'
             />
-            <MDBCarouselItem
-                className='w-100 d-block'
-                itemId={2}
-                src={display.images[1]}
-                alt='...'
-            />
-            <MDBCarouselItem
-                className='w-100 d-block'
-                itemId={3}
-                src={display.images[2]}
-                alt='...'
-            />
+          )}
+
+          
             </MDBCarousel>
             <MDBCardBody>
               <MDBCardTitle>{display.title}</MDBCardTitle>

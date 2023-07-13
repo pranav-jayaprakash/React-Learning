@@ -29,6 +29,7 @@ import Hnine from './Nykaa/Hnine';
 import UseEffect1 from './components/UseEffect1';
 import AxioApi from './components/AxioApi';
 import AxiosCard from './components/AxiosCard';
+import ContextAccess from './components/ContextAccess';
 
 // import Usestate from './components/Usestate';
 
@@ -53,7 +54,8 @@ function App() {
       {/* <Spreadtwo/> */}
       {/* <UseEffect1/> */}
       {/* <AxioApi/> */}
-      <AxiosCard/>
+      {/* <AxiosCard/> */}
+      <ContextAccess/>
 
       {/* <UsestateDecrement/> */}
       {/* <Buttoncolor/>
