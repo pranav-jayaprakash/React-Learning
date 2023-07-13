@@ -32,6 +32,7 @@ import AxiosCard from './components/AxiosCard';
 import ContextAccess from './components/ContextAccess';
 import Propschild from './components/Propschild';
 import Propsparent from './components/Propsparent';
+import CarouselMap from './Tasks/CarouselMap';
 
 // import Usestate from './components/Usestate';
 
@@ -58,7 +59,8 @@ function App() {
       {/* <AxioApi/> */}
       {/* <AxiosCard/> */}
       {/* <ContextAccess/> */}
-      <Propsparent/>
+      {/* <Propsparent/> */}
+      <CarouselMap/>
 
       {/* <UsestateDecrement/> */}
       {/* <Buttoncolor/>
