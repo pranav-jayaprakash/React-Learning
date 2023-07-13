@@ -12,6 +12,7 @@ function ContextAccess() {
 
     <div>
         <h1>{first}</h1>
+        <button onClick={()=>setfirst('Second one')}>Change</button>
     </div>
   )
 }
