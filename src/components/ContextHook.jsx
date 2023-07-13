@@ -11,10 +11,6 @@ function ContextHook({children}) {
 
     const [array1, setarray1] = useState(['hello','hi','third'])
 
-
-    
-
-
   return (
 
     <div>
