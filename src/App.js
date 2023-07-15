@@ -55,7 +55,7 @@ function App() {
       {/* <Props1/> */}
       {/* <Spreadoperator/> */}
       {/* <Spreadtwo/> */}
-      <UseEffect1/>
+      {/* <UseEffect1/> */}
       {/* <AxioApi/> */}
       {/* <AxiosCard/> */}
       {/* <ContextAccess/> */}
