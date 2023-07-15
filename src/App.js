@@ -42,8 +42,10 @@ function App() {
   return (
     <div className="App">
     
-      {/* <Heads/>
-      <Headtwo/>
+      <Heads/>
+
+      
+      {/* <Headtwo/>
       <Headthree/>
       <HeadFour/>
       <Headfive/>
