@@ -1,8 +1,15 @@
 import React from 'react'
 import { Container, Nav, Navbar } from 'react-bootstrap'
 import "./Heads.css"
+import {useNavigate} from'react-router-dom'
 
 function Heads() {
+
+  const navg = useNavigate()
+
+  function sampl(){
+    navg('/home')
+  }
   return (
     <div>
         <Navbar bg="" data-bs-theme="dark" sticky="top">
@@ -17,6 +24,8 @@ function Heads() {
           </Nav>
         </Container>
       </Navbar>
+
+      <button onClick={sampl}>click to home</button>
 
 
     </div>

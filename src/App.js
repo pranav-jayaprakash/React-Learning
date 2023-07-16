@@ -33,6 +33,7 @@ import ContextAccess from './components/ContextAccess';
 import Propschild from './components/Propschild';
 import Propsparent from './components/Propsparent';
 import CarouselMap from './Tasks/CarouselMap';
+import {BrowserRouter,Routes,Route} from 'react-router-dom'
 
 // import Usestate from './components/Usestate';
 
@@ -42,9 +43,18 @@ function App() {
   return (
     <div className="App">
     
-      <Heads/>
+      
+
+      <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<Heads/>}/>
+        <Route path='/home' element={<><Heads/><Headtwo/><Headthree/></>}/>
+      </Routes>
+      </BrowserRouter>
 
       
+
+
       {/* <Headtwo/>
       <Headthree/>
       <HeadFour/>
