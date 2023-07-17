@@ -18,9 +18,9 @@ function Hd() {
         
 
 
-    <Navbar expand="lg" className="bg-body-tertiary">
+    <Navbar expand="lg" className="nav-margin" bg="light">
       <Container fluid>
-        <Navbar.Brand href="#">Navbar scroll</Navbar.Brand>
+        <Navbar.Brand href="#"><img src="https://www.mcdonalds.com/content/dam/sites/usa/nfl/icons/arches-logo_108x108.jpg" alt="" /></Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav

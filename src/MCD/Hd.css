@@ -1,15 +1,4 @@
-.parent {
-    margin-left: 5%;
-    margin-right: 5%;
-    display: flex;
-}
-
-.textsmall {
-    display: inline;
-    margin-right: 10%;
-}
-
-.childone {
-    display: flex;
-    width: 80%;
+.nav-margin {
+    padding-right: 5%;
+    padding-left: 5%;
 }
