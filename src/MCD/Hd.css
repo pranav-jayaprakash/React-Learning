@@ -1,0 +1,15 @@
+.parent {
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+}
+
+.textsmall {
+    display: inline;
+    margin-right: 10%;
+}
+
+.childone {
+    display: flex;
+    width: 80%;
+}

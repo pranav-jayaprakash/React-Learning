@@ -34,6 +34,7 @@ import Propschild from './components/Propschild';
 import Propsparent from './components/Propsparent';
 import CarouselMap from './Tasks/CarouselMap';
 import {BrowserRouter,Routes,Route} from 'react-router-dom'
+import Hd from './MCD/Hd';
 
 // import Usestate from './components/Usestate';
 
@@ -45,13 +46,16 @@ function App() {
     
       
 
-      <BrowserRouter>
+      {/* <BrowserRouter>
       <Routes>
         <Route path='/' element={<Heads/>}/>
         <Route path='/home' element={<><Heads/><Headtwo/><Headthree/></>}/>
       </Routes>
-      </BrowserRouter>
+      </BrowserRouter> */}
 
+
+
+      <Hd/>
       
 
 
