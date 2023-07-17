@@ -28,21 +28,14 @@ function Hd() {
             style={{ maxHeight: '100px' }}
             navbarScroll
           >
-            <Nav.Link href="#action1">Home</Nav.Link>
-            <Nav.Link href="#action2">Link</Nav.Link>
-            <NavDropdown title="Link" id="navbarScrollingDropdown">
-              <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
-              <NavDropdown.Item href="#action4">
-                Another action
-              </NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="#action5">
-                Something else here
-              </NavDropdown.Item>
-            </NavDropdown>
-            <Nav.Link href="#" disabled>
-              Link
-            </Nav.Link>
+            <Nav.Link href="#action1" className='textsm'>Home</Nav.Link>
+            <Nav.Link href="#action2" className='textsm'>Download App</Nav.Link>
+            <Nav.Link href="#action2" className='textsm'>MyMcDonald's Rewards</Nav.Link>
+            <Nav.Link href="#action2" className='textsm'>Exclusive Deals</Nav.Link>
+            <Nav.Link href="#action2" className='textsm'>About Our Food</Nav.Link>
+            <Nav.Link href="#action2" className='textsm'>Locate</Nav.Link>
+            <Nav.Link href="#action2" className='textsm'>Gift Cards</Nav.Link>
+            
           </Nav>
           <Form className="d-flex">
             <Form.Control
@@ -51,7 +44,7 @@ function Hd() {
               className="me-2"
               aria-label="Search"
             />
-            <Button variant="outline-success">Search</Button>
+            <Button variant="warning" className='widthadd'>Order Now</Button>
           </Form>
         </Navbar.Collapse>
       </Container>
