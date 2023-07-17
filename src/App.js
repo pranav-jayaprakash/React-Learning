@@ -35,6 +35,7 @@ import Propsparent from './components/Propsparent';
 import CarouselMap from './Tasks/CarouselMap';
 import {BrowserRouter,Routes,Route} from 'react-router-dom'
 import Hd from './MCD/Hd';
+import Hd2 from './MCD/Hd2';
 
 // import Usestate from './components/Usestate';
 
@@ -56,6 +57,7 @@ function App() {
 
 
       <Hd/>
+      <Hd2/>
       
 
 
