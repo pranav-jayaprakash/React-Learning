@@ -1,0 +1,27 @@
+.parent-div {
+    display: flex;
+    margin: 6% 8% 6% 8%;
+
+    
+}
+
+.inline-img {
+    width: 70%;
+}
+
+.child-one {
+    margin-left: 3%;
+    text-align: left;
+}
+
+.size-big {
+    color: rgb(83, 83, 83);
+    font-weight: 400;
+    text-align: left;
+}
+
+.size-sm {
+    color: rgb(31, 30, 30);
+    font-size: 12px;
+    text-align: left;
+}
