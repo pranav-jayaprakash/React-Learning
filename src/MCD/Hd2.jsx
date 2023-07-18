@@ -50,8 +50,7 @@ function Hd2() {
             <p className='size-sm'>{display.sm}</p>
             <Button  variant="warning">{display.btn}</Button>
         </div>
-        
-    </div>
+        </div>
 
        )}
     </div>
