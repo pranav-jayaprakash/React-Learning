@@ -37,6 +37,7 @@ import {BrowserRouter,Routes,Route} from 'react-router-dom'
 import Hd from './MCD/Hd';
 import Hd2 from './MCD/Hd2';
 import Footerone from './MCD/Footerone'
+import Cone from './components/Cone';
 
 // import Usestate from './components/Usestate';
 
@@ -46,7 +47,8 @@ function App() {
   return (
     <div className="App">
     
-      
+      <Cone/>
+      <Cone name='Hari' Age={23}/>
 
       {/* <BrowserRouter>
       <Routes>
@@ -57,9 +59,9 @@ function App() {
 
 
 
-      <Hd/>
+      {/* <Hd/>
       <Hd2/>
-      <Footerone/>
+      <Footerone/> */}
       
 
 
