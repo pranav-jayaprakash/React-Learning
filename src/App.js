@@ -41,6 +41,8 @@ import Cone from './components/Cone';
 import Page1 from './MCD/Page1';
 import Page2 from './MCD/Page2';
 import Page3 from './MCD/Page3';
+import Page4 from './MCD/Page4';
+import Page5 from './MCD/Page5';
 
 // import Usestate from './components/Usestate';
 
@@ -75,6 +77,8 @@ function App() {
       <Route path='/downloadapp' element={<><Hd/><Page1/><Footerone/></>}/>
       <Route path='/rewards' element={<><Hd/><Page2/><Footerone/></>}/>
       <Route path='/exclusive' element={<><Hd/><Page3/><Footerone/></>}/>
+      <Route path='/about' element={<><Hd/><Page4/><Footerone/></>}/>
+      <Route path='/locate' element={<><Hd/><Page5/><Footerone/></>}/>
 
       </Routes>
       </BrowserRouter>

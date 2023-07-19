@@ -15,3 +15,7 @@
     text-align: left;
     color: rgb(59, 59, 59);
 }
+
+.imagesize,.width100 {
+    width: 100%;
+}
