@@ -66,13 +66,7 @@ function App() {
 
       <BrowserRouter>
       <Routes>
-        <Route path='/' element={
-      <>
-      <Hd/>
-      <Hd2/>
-      <Footerone/>
-      </>
-    }/>
+      <Route path='/' element={<><Hd/><Hd2/><Footerone/></>}/>
 
       <Route path='/downloadapp' element={<><Hd/><Page1/><Footerone/></>}/>
       <Route path='/rewards' element={<><Hd/><Page2/><Footerone/></>}/>
