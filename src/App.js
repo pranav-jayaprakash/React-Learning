@@ -47,8 +47,8 @@ function App() {
   return (
     <div className="App">
     
-      <Cone/>
-      <Cone name='Hari' Age={23}/>
+      {/* <Cone/>
+      <Cone name='Hari' Age={23}/> */}
 
       {/* <BrowserRouter>
       <Routes>
@@ -59,9 +59,25 @@ function App() {
 
 
 
-      {/* <Hd/>
+      <BrowserRouter>
+      <Routes>
+        <Route path='/' element={
+      <>
+      <Hd/>
       <Hd2/>
-      <Footerone/> */}
+      <Footerone/>
+      </>
+    }/>
+
+      <Route path='/downloadapp' element={<>
+        <Hd/>
+      <Hd2/>
+      <Footerone/>
+      </>}/>
+
+      </Routes>
+      </BrowserRouter>
+      
       
 
 

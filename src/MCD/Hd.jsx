@@ -28,9 +28,9 @@ function Hd() {
             style={{ maxHeight: '100px' }}
             navbarScroll
           >
-            <Nav.Link href="#action1" className='textsm'>Home</Nav.Link>
-            <Nav.Link href="#action2" className='textsm'>Download App</Nav.Link>
-            <Nav.Link href="#action2" className='textsm'>MyMcDonald's Rewards</Nav.Link>
+            <Nav.Link href="/" className='textsm'>Home</Nav.Link>
+            <Nav.Link href="/downloadapp" className='textsm'>Download App</Nav.Link>
+            <Nav.Link href="/rewards" className='textsm'>MyMcDonald's Rewards</Nav.Link>
             <Nav.Link href="#action2" className='textsm'>Exclusive Deals</Nav.Link>
             <Nav.Link href="#action2" className='textsm'>About Our Food</Nav.Link>
             <Nav.Link href="#action2" className='textsm'>Locate</Nav.Link>
