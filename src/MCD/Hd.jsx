@@ -31,7 +31,7 @@ function Hd() {
             <Nav.Link href="/" className='textsm'>Home</Nav.Link>
             <Nav.Link href="/downloadapp" className='textsm'>Download App</Nav.Link>
             <Nav.Link href="/rewards" className='textsm'>MyMcDonald's Rewards</Nav.Link>
-            <Nav.Link href="#action2" className='textsm'>Exclusive Deals</Nav.Link>
+            <Nav.Link href="/exclusive" className='textsm'>Exclusive Deals</Nav.Link>
             <Nav.Link href="#action2" className='textsm'>About Our Food</Nav.Link>
             <Nav.Link href="#action2" className='textsm'>Locate</Nav.Link>
             <Nav.Link href="#action2" className='textsm'>Gift Cards</Nav.Link>
