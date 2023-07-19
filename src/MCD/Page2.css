@@ -1,0 +1,17 @@
+.textcolor {
+    color: rgb(77, 76, 76);
+    font-weight: 500;
+    text-align: left;
+}
+
+.titl {
+    font-size: 2rem;
+    margin-bottom: 8%;
+}
+
+.big3 {
+    font-size: 3rem;
+    font-weight: 400;
+    text-align: left;
+    color: rgb(59, 59, 59);
+}
