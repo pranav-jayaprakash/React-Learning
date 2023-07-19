@@ -38,6 +38,7 @@ import Hd from './MCD/Hd';
 import Hd2 from './MCD/Hd2';
 import Footerone from './MCD/Footerone'
 import Cone from './components/Cone';
+import Page1 from './MCD/Page1';
 
 // import Usestate from './components/Usestate';
 
@@ -71,7 +72,7 @@ function App() {
 
       <Route path='/downloadapp' element={<>
         <Hd/>
-      <Hd2/>
+      <Page1/>
       <Footerone/>
       </>}/>
 

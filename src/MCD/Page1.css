@@ -1,4 +1,23 @@
 .margin-div {
-    margin-left: 8%;
-    margin-right: 8%;
+    margin: 6% 8% 8% 8%;
+}
+
+.big {
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.big2 {
+    text-align: left;
+    font-weight: 700;
+    font-size: 3rem;
+    margin-bottom: 2%;
+}
+
+.para {
+    text-align: left;
+    color: rgb(73, 73, 73);
+    font-size: 1.2rem;
+    font-weight: 400;
 }
