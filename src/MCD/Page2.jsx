@@ -31,6 +31,7 @@ function Page2() {
     <div>
         <div className='margin-div'>
         <h1 className='big'>MyMcDonald’s Rewards</h1>
+        <br />
         <p className='para'>With the McDonald’s app, you can earn points on every order to redeem for free McDonald's. Plus, get access to exclusive daily deals, easily re-order faves and select convenient pickup options with Mobile Order & Pay.</p>
         </div>
 
