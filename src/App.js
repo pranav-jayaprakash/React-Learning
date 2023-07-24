@@ -43,6 +43,7 @@ import Page2 from './MCD/Page2';
 import Page3 from './MCD/Page3';
 import Page4 from './MCD/Page4';
 import Page5 from './MCD/Page5';
+import Useparams from './components/Useparams';
 
 // import Usestate from './components/Usestate';
 
@@ -51,6 +52,16 @@ import Page5 from './MCD/Page5';
 function App() {
   return (
     <div className="App">
+
+
+
+
+      <BrowserRouter>
+      <Routes>
+        <Route path='/home/:username' element={<Useparams/>}/>
+        
+      </Routes>
+      </BrowserRouter>
     
       {/* <Cone/>
       <Cone name='Hari' Age={23}/> */}
@@ -64,7 +75,7 @@ function App() {
 
 
 
-      <BrowserRouter>
+      {/* <BrowserRouter>
       <Routes>
       <Route path='/' element={<><Hd/><Hd2/><Footerone/></>}/>
 
@@ -76,7 +87,7 @@ function App() {
 
       </Routes>
       </BrowserRouter>
-      
+       */}
       
 
 
