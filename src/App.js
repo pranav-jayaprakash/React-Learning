@@ -44,6 +44,7 @@ import Page3 from './MCD/Page3';
 import Page4 from './MCD/Page4';
 import Page5 from './MCD/Page5';
 import Useparams from './components/Useparams';
+import Useeft2 from './components/Useeft2';
 
 
 // import Usestate from './components/Usestate';
@@ -54,15 +55,19 @@ function App() {
   return (
     <div className="App">
 
+      <Useeft2/>
 
 
 
-      <BrowserRouter>
+
+
+
+      {/* <BrowserRouter>
       <Routes>
         <Route path='/home/:username' element={<Useparams/>}/>
         
       </Routes>
-      </BrowserRouter>
+      </BrowserRouter> */}
     
       {/* <Cone/>
       <Cone name='Hari' Age={23}/> */}
@@ -105,8 +110,8 @@ function App() {
       {/* <Spreadoperator/> */}
       {/* <Spreadtwo/> */}
       {/* <UseEffect1/> */}
-      <AxioApi/>
-      <AxiosCard/>
+      {/* <AxioApi/>
+      <AxiosCard/> */}
       {/* <ContextAccess/> */}
       {/* <Propsparent/> */}
       {/* <CarouselMap/> */}
