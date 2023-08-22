@@ -46,6 +46,7 @@ import Page5 from './MCD/Page5';
 import Useparams from './components/Useparams';
 import Useeft2 from './components/Useeft2';
 import UseRdc from './components/UseRdc';
+import Usemem from './components/Usemem';
 
 
 // import Usestate from './components/Usestate';
@@ -57,7 +58,8 @@ function App() {
     <div className="App">
 
       {/* <Useeft2/> */}
-      <UseRdc/>
+      {/* <UseRdc/> */}
+      <Usemem/>
 
 
 
