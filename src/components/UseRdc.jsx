@@ -6,7 +6,7 @@ function UseRdc() {
 
     const reducer =(state,action)=>{
 
-        switch (action,type) {
+        switch (action.type) {
             case 'increase':
                 return state= state+1
             case 'decrease':
