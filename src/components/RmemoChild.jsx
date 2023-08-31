@@ -1,6 +1,8 @@
 import React from 'react'
 
-function RmemoChild({value}) {
+function RmemoChild({state}) {
+
+    console.log("Child Rendered")
   return (
     <div>
         <h1>{state}</h1>
@@ -9,3 +11,4 @@ function RmemoChild({value}) {
 }
 
 export default RmemoChild
+export const MChild =React.memo(RmemoChild)

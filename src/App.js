@@ -47,6 +47,7 @@ import Useparams from './components/Useparams';
 import Useeft2 from './components/Useeft2';
 import UseRdc from './components/UseRdc';
 import Usemem from './components/Usemem';
+import RmemoParent from './components/RmemoParent';
 
 
 // import Usestate from './components/Usestate';
@@ -59,7 +60,8 @@ function App() {
 
       {/* <Useeft2/> */}
       {/* <UseRdc/> */}
-      <Usemem/>
+      {/* <Usemem/> */}
+      <RmemoParent/>
 
 
 

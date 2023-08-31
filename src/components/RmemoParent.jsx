@@ -1,5 +1,6 @@
 import React,{useState} from 'react'
 import RmemoChild from './RmemoChild'
+import {MChild} from './RmemoChild'
 
 
 function RmemoParent() {
@@ -25,7 +26,7 @@ function RmemoParent() {
 
         <button onClick={show}>Click</button>
         <button onClick={show1}>Click2</button>
-        <RmemoChild value={state}/>
+        <MChild state={state}/>
 
 
         
