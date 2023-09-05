@@ -1,4 +1,4 @@
-import React,{useState} from 'react'
+import React,{useState,useCallback} from 'react'
 import RmemoChild from './RmemoChild'
 import {MChild} from './RmemoChild'
 
@@ -11,6 +11,8 @@ function RmemoParent() {
     function starter(){
 
     }
+
+    
 
     console.log("Parent rendered")
 
