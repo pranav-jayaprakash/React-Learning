@@ -8,6 +8,10 @@ function RmemoParent() {
     const [state, setstate] = useState(0)
     const [state1, setstate1] = useState(0)
 
+    function starter(){
+
+    }
+
     console.log("Parent rendered")
 
 
@@ -26,7 +30,7 @@ function RmemoParent() {
 
         <button onClick={show}>Click</button>
         <button onClick={show1}>Click2</button>
-        <MChild state={state}/>
+        <MChild state={state} starter={starter}/>
 
 
         
